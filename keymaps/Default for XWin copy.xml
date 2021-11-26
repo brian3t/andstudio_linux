@@ -40,7 +40,9 @@
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
-  <action id="EditorDuplicate" />
+  <action id="EditorDuplicate">
+    <keyboard-shortcut first-keystroke="shift ctrl u" />
+  </action>
   <action id="EditorMoveToPageBottom" />
   <action id="EditorMoveToPageTop" />
   <action id="EditorSelectWord">
@@ -48,6 +50,7 @@
   </action>
   <action id="EditorSplitLine" />
   <action id="EditorStartNewLine" />
+  <action id="EditorToggleCase" />
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="shift alt down" />
   </action>
@@ -109,6 +112,7 @@
   </action>
   <action id="RunDashboard.CopyConfiguration" />
   <action id="SendEOF" />
+  <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShelvedChanges.Rename">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
