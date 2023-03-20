@@ -48,11 +48,19 @@
   <action id="EditorDecreaseFontSize">
     <keyboard-shortcut first-keystroke="shift ctrl minus" />
   </action>
+  <action id="EditorDuplicateLines">
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
+    <keyboard-shortcut first-keystroke="shift ctrl u" />
+  </action>
   <action id="EditorIncreaseFontSize">
     <keyboard-shortcut first-keystroke="shift ctrl equals" />
   </action>
   <action id="EditorJoinLines" />
   <action id="EditorStartNewLine" />
+  <action id="EditorToggleCase">
+    <keyboard-shortcut first-keystroke="shift ctrl x" />
+    <keyboard-shortcut first-keystroke="shift ctrl y" />
+  </action>
   <action id="Exit">
     <keyboard-shortcut first-keystroke="ctrl q" />
   </action>
@@ -81,6 +89,7 @@
   <action id="LocalHistory.ShowHistory">
     <keyboard-shortcut first-keystroke="shift ctrl h" />
   </action>
+  <action id="Markdown.Styling.CreateLink" />
   <action id="MethodHierarchy" />
   <action id="PhpListenDebugAction">
     <keyboard-shortcut first-keystroke="shift ctrl d" />
@@ -93,6 +102,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl space" />
     <keyboard-shortcut first-keystroke="shift ctrl q" />
   </action>
+  <action id="RebuildGradleProject">
+    <keyboard-shortcut first-keystroke="shift ctrl b" />
+  </action>
   <action id="Replace">
     <keyboard-shortcut first-keystroke="ctrl f" />
     <keyboard-shortcut first-keystroke="ctrl r" />
@@ -103,6 +115,7 @@
     <keyboard-shortcut first-keystroke="f5" />
   </action>
   <action id="RunToCursor" />
+  <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShowProjectStructureSettings">
     <keyboard-shortcut first-keystroke="shift ctrl s" />
   </action>
@@ -128,6 +141,9 @@
   <action id="ToggleBookmark">
     <keyboard-shortcut first-keystroke="shift ctrl f11" />
     <keyboard-shortcut first-keystroke="ctrl f2" />
+  </action>
+  <action id="ToggleLineBreakpoint">
+    <keyboard-shortcut first-keystroke="ctrl f8" />
   </action>
   <action id="TypeHierarchy" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
